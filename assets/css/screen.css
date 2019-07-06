@@ -412,6 +412,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 200px;
     background: var(--lightgrey) no-repeat center center;
     background-size: cover;
+	border:1px solid red;
 }
 
 .post-card-content-link {
