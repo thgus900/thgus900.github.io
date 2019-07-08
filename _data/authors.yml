@@ -1,11 +1,11 @@
 ghost:
-  username: ghost
-  name: Ghost
+  username: sonigo
+  name: sonigo
   url_full: http://jekyller.github.io/jasper2/
   url: jekyller.github.io/jasper2
   bio: It does not to dwell on dreams and forget to live
   picture: assets/images/ghost.png
-  facebook: ghost
+  facebook1: https://www.instagram.com/sohyun2_0928/
   twitter: tryghost
   cover: False
 hannah:
