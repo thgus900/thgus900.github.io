@@ -128,7 +128,7 @@ into the {body} of the default.hbs template -->
                   {% endif %}
                 {% endfor %}
                 {% if related_posts > 1 %}
-                    <article class="read-next-card"
+                   <!-- <article class="read-next-card"
                         {% if site.cover %}
                             style="background-image: url({{ site.baseurl }}{{ site.cover }})"
                         {% else %}
@@ -141,7 +141,7 @@ into the {body} of the default.hbs template -->
                             {% if primary %}
                                 <h3 class="read-next-card-header-title"><a href="{{ site.baseurl }}tag/{{ primary | downcase | replace: ' ', '-' }}/">{{ primary | capitalize }}</a></h3>
                             {% endif %}
-                        </header>-->
+                        </header>
                         <div class="read-next-divider">{% include infinity.html %}</div>
                         <div class="read-next-card-content">
                             <ul>
@@ -169,7 +169,7 @@ into the {body} of the default.hbs template -->
                                 {% endif %}
                             </a>
                         </footer>
-                    </article>
+                    </article>-->
                 {% endif %}
             {% endif %}
 
