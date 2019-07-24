@@ -237,6 +237,5 @@
     };
 
     sgallery.init();
-}(
-));
+}(jQuery));
 
