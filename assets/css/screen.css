@@ -412,7 +412,6 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 200px;
     background: var(--lightgrey) no-repeat center center;
     background-size: cover;
-	border:5px solid red;
 }
 
 .post-card-content-link {
@@ -1918,6 +1917,17 @@ Usage (In Ghost editor):
 
 .site-footer-nav a:first-of-type:before {
     display: none;
+}
+
+.gobtn{
+	width:380px;
+	line-height:95px;
+	background:#232323;
+}
+
+.gobtn a{
+	color:#fff;
+	display:block;
 }
 
 @media (max-width: 650px) {
