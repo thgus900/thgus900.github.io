@@ -1,5 +1,5 @@
 ---
-layout: page
+
 current: about
 navigation: true
 logo: 'assets/images/ghost.png'
