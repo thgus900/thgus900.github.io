@@ -8,4 +8,4 @@ class: page-template
 subclass: 'post page'
 ---
 
-안녕하세요
+<img src="/thgus900.github.io/assets/images/sh_about.jpg">
