@@ -11,8 +11,14 @@ subclass: 'post page'
 
 
 <div class="about_me">
-	<div class="logo"><a htef="https://thgus900.github.io/thgus900.github.io/"> <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" /></a></div>
-	<img src="/thgus900.github.io/assets/images/sh_about.jpg">
+	<div class="logo">
+		<a htef="https://thgus900.github.io/thgus900.github.io/">
+			<img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" />
+		</a>
+	</div>
+	<div class="aboutme">
+		<img src="/thgus900.github.io/assets/images/sh_about.jpg">
+	</div>
 </div>
 
 
@@ -30,7 +36,7 @@ body{
 	height:100%;
 }
 
-.about_me img{
+.about_me .aboutme img{
 	width:100%;
 }
 </style>
