@@ -21,6 +21,7 @@ subclass: 'post page'
 	
 @media (max-width: 1150px){
 	.mobile_img{display:block;}
+	.mobile_img img{width:100%; height:100%;}
 	.pc_img{display:none;}
 }
 </style>
