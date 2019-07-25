@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: none
 current: about
 navigation: true
 logo: 'assets/images/ghost.png'
-
+class: page-template
+subclass: 'post page'
 ---
 
 <div class="about_me">
@@ -15,6 +16,6 @@ logo: 'assets/images/ghost.png'
 .about_me{
 	width:100%;
 	height:100%;
-	border:2px solid red;
+	border:1px solid red;
 }
 </style>
