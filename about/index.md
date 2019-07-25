@@ -7,6 +7,7 @@ class: page-template
 subclass: 'post page'
 ---
  <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}{{ site.favicon }}" type="image/png" />
+  <meta property="og:site_name" content="{{ site.title }}" />
 
 
 <div class="about_me">
