@@ -13,7 +13,9 @@
 .SumoGallery .Sarrow.l{left:10%;}
 .SumoGallery .Sarrow.r{right:10%;}
 .SumoGallery .Sarrow.last-item{opacity: 0.3;}
-.SumoGallery .Sarrow.last-item:hover{opacity: 0.3; text-decoration:none;}
+.SumoGallery .Sarrow a:hover{text-decoration:none;}
+.SumoGallery .Sarrow a:active{text-decoration:none;}
+.SumoGallery .Sarrow.last-item:hover{opacity: 0.3; }
 .SumoGallery .Sarrow.last-item:active{opacity: 0.3; text-decoration:none;}
 
 .SumoGallery .Sheader{background-color: rgba(0, 0, 0, 0.66);height: 40px;position: relative; z-index: 9999;}
