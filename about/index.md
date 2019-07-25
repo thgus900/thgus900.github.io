@@ -20,8 +20,8 @@ body{
 	padding:0;
 	margin:0
 }
-.logo{
-	width140px
+.logo img{
+	width:140px;
 	height:20px;
 }
 .about_me{
