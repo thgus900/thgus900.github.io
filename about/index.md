@@ -15,6 +15,6 @@ logo: 'assets/images/ghost.png'
 .about_me{
 	width:100%;
 	height:100%;
-	border:1px solid red;
+	border:2px solid red;
 }
 </style>
