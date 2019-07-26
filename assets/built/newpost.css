@@ -7,13 +7,15 @@
 	font-size:23px;
 	color:#c4c4c3;
 	margin:0;
+	font-weight: 400;
 }
 
-.newpost_titbox .newpost-full-subtitle{
-	font-size:43px;
-	color:#232323;
-	line-height:73px;
-	margin:0;
+.newpost_titbox .newpost-full-subtitle {
+    font-size: 43px;
+    color: #232323;
+    line-height: 65px;
+    margin: 0;
+    font-weight: 600;
 }
 
 .nwepost-container{
@@ -39,7 +41,7 @@
 }
 
 .posting-tag{ 
-	padding-top::50px;
+	padding:50px 0;
 }
 
 .postiong {
@@ -48,7 +50,7 @@
     width: 75px;
     color: #fff;
     text-align: center;
-	margin: 0 0 0.3em;
+	margin: 0 0 0.5em;
 }
 .posting-tag  span{
 	font-size:13px;
