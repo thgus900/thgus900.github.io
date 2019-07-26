@@ -1,3 +1,7 @@
+::selection {
+    background: #c89860;
+    color: #fff;}
+
 .newpost-full-content{
 	font-family: 'NanumBarunGothic', sans-serif;
 	text-align:left;
