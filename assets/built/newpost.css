@@ -12,6 +12,7 @@
 	font-size:43px;
 	color:#232323;
 	line-height:73px;
+	margin:0;
 }
 
 .nwepost-container{
@@ -67,11 +68,11 @@
 	border:1px solid #c89860;
 	width:130px;
 	line-height:60px;
+	text-align:center;
 }
 
 .link_homepage	 a{
 	color:#c89860;
-	text-align:center;
 	font-size:15px;
 }
 
