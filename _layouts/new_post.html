@@ -43,10 +43,12 @@ disqus: false
             <section class="newpost-full-content">
                 <div class="nwepost_inner">
 					<div class="newpost_titbox">
-						 <h1 class="newpost-full-title">{{ page.title }}</h1>
-						 <h2 class="newpost-full-title">{{ page.subtitle }}</h2>
+						<h2 class="newpost-full-subtitle">{{ page.subtitle }}</h2>
+						 <h1 class="newpost-full-title">{{ page.title }}</h1>						 
 					 </div>
-					  {{ content }}
+					 <div class="nwepost-container">
+						 {{ content }}
+					  </div>
                 </div>
             </section>
 

@@ -1,3 +1,45 @@
 .newpost-full-content{
+	font-family: 'NanumBarunGothic', sans-serif;
+	text-align:left;
+}
 
+.newpost_titbox .newpost-full-subtitle{
+	font-size:23px;
+	color:#c4c4c3;
+}
+
+.newpost_titbox .newpost-full-title{
+	font-size:43px;
+	color:#232323;
+	line-height:73px;
+}
+
+.nwepost-container{
+	width:100%;
+	padding-top:105px;
+}
+
+.nwepost-container .postion{
+	font-size:15px;
+	color:#fff;
+	background:#232323;
+	padding:3px;
+}
+
+.posting-tag{
+	padding-top::50px;
+}
+
+.posting-tag  span{
+	font-size:13px;
+	color:#c89860;
+	border:1px solid #c89860;
+	border-radius:50px;
+	padding:3px 5px;
+}
+
+.post_text{
+	font-size:15px; 
+	color:#232323;
+	line-height:23px;
 }
