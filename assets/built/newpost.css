@@ -28,23 +28,38 @@
 
 .new_postlist{
 	padding-left: 0;
+	overflow:hidden;
 }
 
 .new_postlist li{
 	list-style: none;
     padding-left: 0;
+	float:left;
+}
+
+.new_postlist li:nth-child(1){
+	width:70%;
+}
+
+.new_postlist li:nth-child(2){
+	width:30%;
 }
 
 .posting-tag{ 
 	padding-top::50px;
 }
 
+.postiong{
+	background:#232323;
+	padding:3px 4px;
+}
 .posting-tag  span{
 	font-size:13px;
 	color:#c89860;
 	border:1px solid #c89860;
 	border-radius:50px;
 	padding:3px 5px;
+	margin:0 5px;
 }
 
 .post_text{
