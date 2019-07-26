@@ -64,13 +64,20 @@
 
 .link_homepage{
 	margin-top:50px;
-	border:2px solid #c89860;
+	border:1px solid #c89860;
 	width:130px;
-	height:60px;
+	line-height:60px;
 }
 
 .link_homepage	 a{
 	color:#c89860;
 	text-align:center;
 	font-size:15px;
+}
+
+
+.link_homepage	 a:hover{
+	text-decoration:none;
+	background:#c89860;
+	color:#fff;
 }
