@@ -26,6 +26,15 @@
 	padding:3px;
 }
 
+.new_postlist{
+	padding-left: 0;
+}
+
+.new_postlist li{
+	list-style: none;
+    padding-left: 0;
+}
+
 .posting-tag{
 	padding-top::50px;
 }
