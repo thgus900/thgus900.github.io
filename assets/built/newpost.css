@@ -3,12 +3,12 @@
 	text-align:left;
 }
 
-.newpost_titbox .newpost-full-itle{
+.newpost_titbox .newpost-full-subtitle{
 	font-size:23px;
 	color:#c4c4c3;
 }
 
-.newpost_titbox .newpost-full-subtitle{
+.newpost_titbox .newpost-full-title{
 	font-size:43px;
 	color:#232323;
 	line-height:73px;
@@ -63,7 +63,14 @@
 }
 
 .link_homepage{
+	margin-top:50px;
 	border:2px solid #c89860;
 	width:130px;
-	height:35px;
+	height:60px;
+}
+
+.link_homepage	 a{
+	color:#c89860;
+	text-align:center;
+	font-size:15px;
 }
