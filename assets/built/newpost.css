@@ -99,3 +99,13 @@
 	background:#c89860;
 	color:#fff;
 }
+
+
+/*565px 이하로 깨진 css 수정*/
+@media all and (max-width: 375px){
+	.link_homepage{
+		width:80%;
+	}
+
+
+}
