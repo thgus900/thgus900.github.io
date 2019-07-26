@@ -6,6 +6,7 @@
 .newpost_titbox .newpost-full-subtitle{
 	font-size:23px;
 	color:#c4c4c3;
+	margin:0;
 }
 
 .newpost_titbox .newpost-full-title{
@@ -66,14 +67,16 @@
 .link_homepage{
 	margin-top:50px;
 	border:1px solid #c89860;
-	width:130px;
+	width:315px;
 	line-height:60px;
 	text-align:center;
+	margin-bottom:20px;
 }
 
 .link_homepage	 a{
 	color:#c89860;
 	font-size:15px;
+	display:block;
 }
 
 
