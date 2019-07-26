@@ -3,13 +3,13 @@
 	text-align:left;
 }
 
-.newpost_titbox .newpost-full-subtitle{
+.newpost_titbox .newpost-full-title{
 	font-size:23px;
 	color:#c4c4c3;
 	margin:0;
 }
 
-.newpost_titbox .newpost-full-title{
+.newpost_titbox .newpost-full-subtitle{
 	font-size:43px;
 	color:#232323;
 	line-height:73px;
@@ -48,6 +48,7 @@
     width: 75px;
     color: #fff;
     text-align: center;
+	margin: 0 0 0.3em;
 }
 .posting-tag  span{
 	font-size:13px;
