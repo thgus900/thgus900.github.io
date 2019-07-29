@@ -1,17 +1,25 @@
+::selection {
+    background: #c89860;
+    color: #fff;}
+
 .newpost-full-content{
 	font-family: 'NanumBarunGothic', sans-serif;
 	text-align:left;
 }
 
-.newpost_titbox .newpost-full-subtitle{
+.newpost_titbox .newpost-full-title{
 	font-size:23px;
 	color:#c4c4c3;
+	margin:0;
+	font-weight: 400;
 }
 
-.newpost_titbox .newpost-full-title{
-	font-size:43px;
-	color:#232323;
-	line-height:73px;
+.newpost_titbox .newpost-full-subtitle {
+    font-size: 43px;
+    color: #232323;
+    line-height: 65px;
+    margin: 0;
+    font-weight: 600;
 }
 
 .nwepost-container{
@@ -28,27 +36,77 @@
 
 .new_postlist{
 	padding-left: 0;
+
 }
 
 .new_postlist li{
 	list-style: none;
     padding-left: 0;
+	text-align:center;;
+}
+
+.new_postlist li:nth-child(1){
+	text-align:left;
 }
 
 .posting-tag{ 
-	padding-top::50px;
+	padding-bottom:180px;
 }
 
-.posting-tag  span{
-	font-size:13px;
-	color:#c89860;
-	border:1px solid #c89860;
-	border-radius:50px;
-	padding:3px 5px;
+.postiong {
+    background: #232323;
+    padding: 3px 4px;
+    width: 75px;
+    color: #fff;
+    text-align: center;
+	margin: 0 0 0.5em;
+}
+.posting-tag span {
+    font-size: 13px;
+    color: #c89860;
+    border: 1px solid #c89860;
+    border-radius: 50px;
+    padding: 1px 15px;
+    margin: 2px;
+    display: inline-block;
 }
 
 .post_text{
 	font-size:15px; 
 	color:#232323;
 	line-height:23px;
+}
+
+.link_homepage{
+	margin-top:50px;
+	border:1px solid #c89860;
+	width:315px;
+	line-height:60px;
+	text-align:center;
+	margin-bottom:20px;
+	margin:0 auto;
+}
+
+.link_homepage	 a{
+	color:#c89860;
+	font-size:15px;
+	display:block;
+	transition: all 1s; 
+}
+
+
+.link_homepage	 a:hover{
+	text-decoration:none;
+	background:#c89860;
+	color:#fff;
+}
+
+
+/*565px 이하로 깨진 css 수정*/
+@media all and (max-width: 375px){
+	.link_homepage{
+		width:80%;
+	}
+
+
 }
