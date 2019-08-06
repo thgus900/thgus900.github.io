@@ -9,7 +9,7 @@ date: 2017-07-27 10:00:00
 tags: [Getting started]
 class: post-template
 subclass: 'post tag-getting-started'
-#author: ghost
+author: ghost
 ---
 
 <ul class="new_postlist">
