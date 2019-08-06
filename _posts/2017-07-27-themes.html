@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: new_post
 current: post
 cover:  assets/images/design.jpg
 navigation: True
-title: Setting up your own Ghost theme
+title: 한식사랑
+subtitle: 한식포털
 date: 2017-07-27 04:00:00
 tags: [Getting started]
 class: post-template
@@ -11,20 +12,28 @@ subclass: 'post tag-getting-started'
 author: ghost
 ---
 
-<p>Creating a totally custom design for your publication</p>
-<p>Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving you a few basic settings which act as a poor proxy for code, we just let you write code.</p>
-<p>There are a huge range of both free and premium pre-built themes which you can get from the <a href="http://marketplace.ghost.org">Ghost Theme Marketplace</a>, or you can simply create your own from scratch.</p>
-<p><a href="http://marketplace.ghost.org"><img src="https://casper.ghost.org/v1.0.0/images/marketplace.jpg" alt="marketplace"></a></p>
-<blockquote>
-<p>Anyone can write a completely custom Ghost theme, with just some solid knowledge of HTML and CSS</p>
-</blockquote>
-<p>Ghost themes are written with a templating language called handlebars, which has a bunch of dynamic helpers to insert your data into template files. Like <code>{{author.name}}</code>, for example, outputs the name of the current author.</p>
-<p>The best way to learn how to write your own Ghost theme is to have a look at <a href="https://github.com/TryGhost/Casper">the source code for Casper</a>, which is heavily commented and should give you a sense of how everything fits together.</p>
-<ul>
-<li><code>default.hbs</code> is the main template file, all contexts will load inside this file unless specifically told to use a different template.</li>
-<li><code>post.hbs</code> is the file used in the context of viewing a post.</li>
-<li><code>index.hbs</code> is the file used in the context of viewing the home page.</li>
-<li>and so on</li>
+
+
+<ul class="new_postlist">
+	<li>
+		<p class="postiong">postiong</p>
+		<p class="post_text">
+			한식포털로 업체/기관등 정보를 볼수있는 홈페이지로 한눈에 볼수 있는 키워드 코딩을 주로 했습니다.  
+			클릭을 많이 하지 않아도 필요한 정보를 빠르게 알수 있고  다양한 정보를 보여줍니다. 
+		</p>
+
+		<div class="posting-tag">
+			<span> # 한식포털 </span> <span> # 정보수집 </span>  <span> #키워드코딩</span> 
+		</div>
+		
+	</li>
+	<li>
+		<img src="/thgus900.github.io/assets/images/publishing_6.png" alt="Homepage image" >
+	</li>
+	<li>
+		<div class="link_homepage">
+			<a href="http://ilovekfood.com/kfood/" target="_black">홈페이지 바로가기 </a>
+		</div>
+	</li>
+	
 </ul>
-<p>We've got <a href="http://themes.ghost.org/docs/about">full and extensive theme documentation</a> which outlines every template file, context and helper that you can use.</p>
-<p>If you want to chat with other people making Ghost themes to get any advice or help, there's also a <strong>#themes</strong> channel in our <a href="https://slack.ghost.org">public Slack community</a> which we always recommend joining!</p>

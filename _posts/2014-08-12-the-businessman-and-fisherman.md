@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: new_post
 current: post
 cover: assets/images/water.jpg
 navigation: True
 title: The Businessman & The Fisherman
+subtitle: 한식포털
 date: 2014-08-12 10:18:00
 tags: fables
 class: post-template
@@ -12,37 +13,28 @@ logo: assets/images/ghost.png
 author: hannah
 ---
 
-An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.
-
-“How long did it take you to catch them?” the American asked.
-
-“Only a little while,” the Mexican replied in surprisingly good English.
-
-“Why don’t you stay out longer and catch more fish?” the American then asked.
-
-“I have enough to support my family and give a few to friends,” the Mexican said as he unloaded them into a basket.
-
-“But… What do you do with the rest of your time?”
-
-The Mexican looked up and smiled. “I sleep late, fish a little, play with my children, take a siesta with my wife, Julia, and stroll into the village each evening, where I sip wine and play guitar with my amigos. I have a full and busy life, señor.”
-
-The American laughed and stood tall. “Sir, I’m a Harvard M.B.A. and can help you. You should spend more time fishing, and with the proceeds, buy a bigger boat. In no time, you could buy several boats with the increased haul. Eventually, you would have a fleet of fishing boats.”
-
-He continued, “Instead of selling your catch to a middleman, you would sell directly to the consumers, eventually opening your own cannery. You would control the product, processing, and distribution. You would need to leave this small coastal fishing village, of course, and move to Mexico City, then to Los Angeles, and eventually to New York City, where you could run your expanded enterprise with proper management.
-
-The Mexican fisherman asked, “But, señor, how long will all this take?”
-
-To which the American replied, “15-20 years, 25 tops.”
-
-“But what then, señor?”
-
-The American laughed and said, “That’s the best part. When the time is right, you would announce an IPO and sell your company stock to the public and become very rich. You would make millions.”
-
-“Millions señor? Then what?"
-
-“Then you would retire and move to a small coastal fishing village, where you would sleep late, fish a little, play with your kids, take a siesta with your wife, and stroll in to the village in the evenings where you could sip wine and play your guitar with your amigos.”
 
 
-Adapted from the "Anekdote zur Senkung der Arbeitsmoral" by **Heinrich Böll**
+<ul class="new_postlist">
+	<li>
+		<p class="postiong">postiong</p>
+		<p class="post_text">
+			PC와 모바일로 수발주/재고/매출 관리 프로그램으로 기존 시스템 들은 설치형 프로그램으로 운영 UDM 인터넷 기반으로 제작했습니다.
+			관리자 형식 홈페이지로 엑셀자료도 시스템 내 쉽게 변환 가능하고 복잡하고 사용 빈도수에 따라 사용자 맞춤으로 제작했습니다.
+		</p>
 
-An influential German write and Nobel Prize for Literature in 1972.
+		<div class="posting-tag">
+			<span> # 수발주프로그램 </span> <span> # 사용자맞춤제작 </span>  <span> #관리자형식홈페이지 </span>
+		</div>
+		
+	</li>
+	<li>
+		<img src="/thgus900.github.io/assets/images/publishing_7.png" alt="Homepage image" >
+	</li>
+	<li>
+		<div class="link_homepage">
+			<a href="http://udm.totb.kr/main.asp" target="_black">홈페이지 바로가기 </a>
+		</div>
+	</li>
+	
+</ul>
