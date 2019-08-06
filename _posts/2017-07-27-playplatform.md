@@ -2,7 +2,7 @@
 layout: new_post
 current: post
 cover:  assets/images/welcome.jpg
-navigation: False
+navigation: True
 title: 가상화폐 거래소
 subtitle: 플레이플랫폼
 date: 2017-07-27 10:00:00 
